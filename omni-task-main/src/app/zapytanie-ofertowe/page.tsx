@@ -70,12 +70,12 @@ export default function QuoteRequestPage() {
         <div className="section__container">
           <div className="quote-form-wrapper">
             {status === 'success' ? (
-              <div className="form-success" id="quote-success">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ margin: '0 auto 1rem', display: 'block', color: '#10b981' }}>
+              <div className="form-success" id="quote-success" style={{ maxWidth: '600px', margin: '4rem auto', textAlign: 'center', padding: '3rem 2rem', background: 'rgba(16, 185, 129, 0.05)', border: '1px solid rgba(16, 185, 129, 0.2)', borderRadius: 'var(--radius-lg)' }}>
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ margin: '0 auto 1.5rem', display: 'block', color: '#10b981' }}>
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                   <polyline points="22 4 12 14.01 9 11.01" />
                 </svg>
-                {t('quote.success')}
+                <h3 style={{ color: 'var(--color-success)', fontSize: '1.25rem', margin: 0, fontWeight: 600 }}>{t('quote.success')}</h3>
               </div>
             ) : (
               <form className="quote-form" onSubmit={handleSubmit} id="quote-form" noValidate>

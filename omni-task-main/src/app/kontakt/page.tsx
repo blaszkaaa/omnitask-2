@@ -132,8 +132,7 @@ export default function ContactPage() {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                     <polyline points="22 4 12 14.01 9 11.01" />
                   </svg>
-                  <h3 style={{ marginBottom: '0.5rem', color: 'inherit' }}>{t('quote.success')}</h3>
-                  <p>Skontaktujemy się z Tobą najszybciej jak to możliwe.</p>
+                  <h3 style={{ margin: 0, color: 'inherit', fontSize: '1.1rem', lineHeight: '1.4' }}>{t('quote.success')}</h3>
                 </div>
               ) : (
                 <form className="contact-form" onSubmit={handleSubmit}>
