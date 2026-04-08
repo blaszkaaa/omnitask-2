@@ -132,6 +132,20 @@ export default function BlogPage() {
           )}
         </div>
       </div>
+
+      {/* SEO Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: t('blog.title'),
+            description: t('blog.subtitle'),
+            url: 'https://www.omnitask.pl/blog',
+          })
+        }}
+      />
     </>
   )
 }

@@ -166,6 +166,31 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+
+      {/* SEO Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ContactPage',
+            name: 'Kontakt - OmniTask',
+            description: t('contact.subtitle'),
+            url: 'https://www.omnitask.pl/kontakt',
+            mainEntity: {
+              '@type': 'Organization',
+              name: 'OmniTask',
+              contactPoint: {
+                '@type': 'ContactPoint',
+                telephone: '+48721719238',
+                email: 'kontakt@omnitask.pl',
+                contactType: 'customer service',
+                availableLanguage: ['Polish', 'English', 'Ukrainian']
+              }
+            }
+          })
+        }}
+      />
     </>
   )
 }

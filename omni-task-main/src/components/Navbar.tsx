@@ -33,7 +33,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled || mobileOpen ? 'navbar--scrolled' : ''}`} id="main-navbar">
       <div className="navbar__container">
         <Link href="/" className="navbar__logo" title="OmniTask - Strona główna">
-          <img src={scrolled || mobileOpen ? "/Logo2.png" : "/Logo.png"} alt="OmniTask Logo" className="navbar__logo-img" style={{ height: '42px', width: 'auto' }} />
+          <img src={scrolled || mobileOpen ? "/Logo2.png" : "/Logo.png"} alt="OmniTask Logo" title="OmniTask Logo" className="navbar__logo-img" style={{ height: '42px', width: 'auto' }} />
         </Link>
 
         <nav className="navbar__nav" id="desktop-nav">

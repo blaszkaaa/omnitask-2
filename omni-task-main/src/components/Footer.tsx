@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Column 1 - Brand */}
           <div className="footer__col">
             <div className="footer__brand">
-              <img src="/Logo.png" alt="OmniTask Logo" className="footer__logo-img" style={{ height: '32px', width: 'auto' }} />
+              <img src="/Logo.png" alt="OmniTask Logo" title="OmniTask Logo" className="footer__logo-img" style={{ height: '32px', width: 'auto' }} />
             </div>
             <p className="footer__description">{t('footer.description')}</p>
             <div className="footer__socials">

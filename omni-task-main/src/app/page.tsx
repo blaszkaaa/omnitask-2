@@ -284,7 +284,7 @@ export default function HomePage() {
             ].map((tech) => (
               <div key={tech.name} className="tech-card" title={tech.name}>
                 <div className="tech-card__icon" style={{ background: '#fff', padding: '0.25rem' }}>
-                  <img src={tech.icon} alt={`${tech.name} logo`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src={tech.icon} alt={`${tech.name} logo`} title={tech.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
                 <span className="tech-card__name">{tech.name}</span>
               </div>
@@ -472,6 +472,41 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* SEO Schema Markups */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'OmniTask',
+            url: 'https://www.omnitask.pl',
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: 'https://www.omnitask.pl/blog?q={search_term_string}',
+              'query-input': 'required name=search_term_string'
+            }
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [1, 2, 3, 4, 5].map((i) => ({
+              '@type': 'Question',
+              name: t(`faq.q${i}`),
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: t(`faq.a${i}`)
+              }
+            }))
+          }),
+        }}
+      />
     </>
   )
 }

@@ -159,6 +159,24 @@ export default function QuoteRequestPage() {
           </div>
         </div>
       </div>
+
+      {/* SEO Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: t('quote.title'),
+            description: t('quote.subtitle'),
+            url: 'https://www.omnitask.pl/zapytanie-ofertowe',
+            potentialAction: {
+              '@type': 'Action',
+              name: 'Wypełnienie formularza kontaktowego B2B'
+            }
+          })
+        }}
+      />
     </>
   )
 }
