@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "home": "Home",
+    "quote": "Request a Quote",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Business Process Automation & Robotization",
+    "subtitle": "We implement intelligent RPA solutions that eliminate repetitive tasks, reduce costs, and accelerate your company's operations. Let robots work for you.",
+    "cta_primary": "Free Consultation",
+    "cta_secondary": "See How We Work"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "End-to-end automation support — from process analysis to robot deployment and maintenance",
+    "service1": {
+      "title": "Robotic Process Automation (RPA)",
+      "desc": "We deploy software robots that automatically perform repetitive tasks — from invoice processing to order management."
+    },
+    "service2": {
+      "title": "Workflow Automation",
+      "desc": "We design and implement intelligent workflows that connect systems, applications, and people into one seamless process."
+    },
+    "service3": {
+      "title": "System Integration",
+      "desc": "We connect your ERP, CRM, email, and databases into one ecosystem with automatic data exchange."
+    },
+    "service4": {
+      "title": "Audit & Optimization",
+      "desc": "We analyze your business processes, identify bottlenecks, and propose specific automation solutions."
+    },
+    "service5": {
+      "title": "Artificial Intelligence",
+      "desc": "We implement AI solutions — from intelligent OCR to chatbots and predictive data analytics."
+    },
+    "service6": {
+      "title": "Support & Maintenance",
+      "desc": "We provide continuous technical support, bot monitoring, and development of deployed automations."
+    }
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "A proven 4-step automation implementation process",
+    "step1": {
+      "number": "01",
+      "title": "Process Audit",
+      "desc": "We analyze your business processes, identify those with the greatest automation potential, and estimate ROI."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Solution Design",
+      "desc": "We prepare a detailed automation blueprint, select technologies, and define measurable goals."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Implementation & Testing",
+      "desc": "We build, configure, and test robots. Pilot on a test environment, then production deployment."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Support & Growth",
+      "desc": "We monitor bot performance, optimize processes, and expand automation to new areas."
+    }
+  },
+  "roi": {
+    "title": "Real Automation Results",
+    "subtitle": "Industry research and statistics show that RPA implementations in companies result in the following benefits",
+    "stat1_value": "70%",
+    "stat1_label": "Operational cost reduction",
+    "stat2_value": "5x",
+    "stat2_label": "Faster data processing",
+    "stat3_value": "99.9%",
+    "stat3_label": "Execution accuracy",
+    "stat4_value": "24/7",
+    "stat4_label": "Non-stop robot operation"
+  },
+  "cases": {
+    "title": "Case Studies",
+    "subtitle": "See how automation transformed our clients' work",
+    "case1": {
+      "industry": "Finance",
+      "title": "Invoice Processing Automation",
+      "desc": "We deployed an RPA robot that automatically reads, verifies, and books invoices. Processing time dropped from 15 minutes to 30 seconds per invoice.",
+      "result": "↓ 97% processing time"
+    },
+    "case2": {
+      "industry": "Logistics",
+      "title": "Order Handling Automation",
+      "desc": "We robotized the entire process from order receipt, through inventory checks, to generating shipping documents.",
+      "result": "↑ 200% throughput"
+    },
+    "case3": {
+      "industry": "HR",
+      "title": "HR Process Robotization",
+      "desc": "Automatic contract generation, leave management, new employee onboarding — all without manual work.",
+      "result": "↓ 80% manual work"
+    }
+  },
+  "tech": {
+    "title": "Technologies",
+    "subtitle": "We work with leading automation platforms"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Reviews from companies that trusted us",
+    "t1": {
+      "text": "Thanks to OmniTask, we saved over 200 hours of work per month. Invoice automation was a bullseye.",
+      "author": "Anna Kowalska",
+      "role": "CFO, TechFin Sp. z o.o."
+    },
+    "t2": {
+      "text": "Professional approach from audit to deployment. Robots work flawlessly, and we can focus on strategy.",
+      "author": "Marek Nowak",
+      "role": "CEO, LogiTrans S.A."
+    },
+    "t3": {
+      "text": "Working with OmniTask was the best investment we made this year. ROI in 3 months.",
+      "author": "Katarzyna Wiśniewska",
+      "role": "Operations Director, HRPro"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to common questions about automation and RPA",
+    "q1": "What is RPA (Robotic Process Automation)?",
+    "a1": "RPA is a technology that creates software robots mimicking human actions in computer systems. A robot can click, enter data, copy files, send emails — just like a person, but faster and error-free.",
+    "q2": "How long does an automation implementation take?",
+    "a2": "A simple bot can be deployed in 2-4 weeks. Complex processes requiring multi-system integration take 2-3 months. We always start with a pilot to quickly demonstrate value.",
+    "q3": "How much does process automation cost?",
+    "a3": "Cost depends on process complexity. Simple automations start at several thousand PLN. Return on investment (ROI) typically occurs within 3-6 months.",
+    "q4": "Will automation replace my employees?",
+    "a4": "No — automation frees employees from monotonous, repetitive tasks. This allows them to focus on creative, strategic work requiring human judgment.",
+    "q5": "What processes can be automated?",
+    "a5": "Any repetitive, rule-based process: invoice processing, order handling, reporting, data migration, customer service, HR processes, accounting, and many more."
+  },
+  "newsletter": {
+    "title": "Stay Updated on Automation",
+    "subtitle": "Subscribe to our newsletter for tips, case studies, and RPA news.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Thank you for subscribing!"
+  },
+  "about": {
+    "title": "Why OmniTask?",
+    "subtitle": "We are a team of automation specialists combining technical expertise with deep understanding of business processes.",
+    "stat1_value": "150+",
+    "stat1_label": "Deployed Automations",
+    "stat2_value": "98%",
+    "stat2_label": "Satisfied Clients",
+    "stat3_value": "50k+",
+    "stat3_label": "Hours Saved",
+    "stat4_value": "3 mo.",
+    "stat4_label": "Average ROI Time"
+  },
+  "why": {
+    "title": "What Sets Us Apart?",
+    "feature1": {
+      "title": "Business-First Approach",
+      "desc": "We don't implement technology for technology's sake. We start by understanding your business goals and processes."
+    },
+    "feature2": {
+      "title": "Fast Implementation Time",
+      "desc": "We automate simple processes in just 2 weeks. We apply agile methodology to deliver business value as quickly as possible."
+    },
+    "feature3": {
+      "title": "Measurable Results",
+      "desc": "Every implementation is measured by specific KPIs: time, cost, accuracy. We show real ROI."
+    },
+    "feature4": {
+      "title": "24/7 Support",
+      "desc": "We monitor robots non-stop, respond to issues, and ensure continuous automation operations."
+    }
+  },
+  "cta": {
+    "title": "Ready to Automate?",
+    "subtitle": "Schedule a free consultation. We'll analyze your processes and show you how much you can save.",
+    "button": "Free Consultation"
+  },
+  "clients": {
+    "title": "Trusted By"
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Describe the process you want to automate. Our team will prepare a custom quote within 24 hours.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "message": "Process Description",
+    "submit": "Send Request",
+    "success": "Thank you! Your request has been sent. We'll contact you within 24 hours.",
+    "error": "An error occurred. Please try again later.",
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "name_placeholder": "John Smith",
+    "email_placeholder": "kontakt@omnitask.pl",
+    "phone_placeholder": "+48 721 719 238",
+    "company_placeholder": "Your Company Ltd.",
+    "message_placeholder": "Describe the process you want to automate, how many people perform it, how long it takes, and what systems are used..."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about automating your processes",
+    "phone_label": "Phone",
+    "phone": "+48 721 719 238",
+    "email_label": "Email",
+    "email": "omnitask@kontakt.pl",
+    "hours_label": "Working Hours",
+    "hours": "Mon - Fri: 8:00 AM - 5:00 PM",
+    "map_title": "Our Location"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Knowledge on automation, RPA, and digital transformation",
+    "read_more": "Read More",
+    "no_articles": "No articles to display.",
+    "published": "Published"
+  },
+  "footer": {
+    "description": "OmniTask — business process automation and robotization. We deploy RPA, integrate systems, and optimize processes.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "copyright": "© 2026 OmniTask. All rights reserved."
+  }
+}

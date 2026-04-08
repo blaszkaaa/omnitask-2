@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Article {
+  id               Int       @id @default(autoincrement())
+  slug             String    @unique
+  title            Json      
+  excerpt          Json      
+  content          Json      
+  category         Json      
+  image            String?
+  date             DateTime? // Opcjonalna ręczna data publikacji
+  is_public        Boolean   @default(false)
+  created_at       DateTime  @default(now())
+  meta_title       String?   @db.VarChar(255)
+  meta_description String?   @db.Text
+  schema_markup    String?   @db.Text
+  image_alt        String?
+  image_title      String?
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  text      String   @db.Text
+  author    String
+  role      String
+  company   String?
+  rating    Int      @default(5)
+  createdAt DateTime @default(now())
+}
+
+model QuoteRequest {
+  id          String   @id @default(cuid())
+  name        String
+  email       String
+  phone       String?
+  company     String?
+  message     String   @db.Text
+  createdAt   DateTime @default(now())
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}

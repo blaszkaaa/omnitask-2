@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "quote": "Zapytanie ofertowe",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Automatyzacja i robotyzacja procesów biznesowych",
+    "subtitle": "Wdrażamy inteligentne rozwiązania RPA, które eliminują powtarzalne zadania, redukują koszty i przyspieszają pracę Twojej firmy. Pozwól robotom pracować za Ciebie.",
+    "cta_primary": "Bezpłatna konsultacja",
+    "cta_secondary": "Zobacz jak działamy"
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "subtitle": "Kompleksowa obsługa automatyzacji — od analizy procesów po wdrożenie i utrzymanie robotów",
+    "service1": {
+      "title": "Robotyzacja procesów (RPA)",
+      "desc": "Wdrażamy roboty software'owe, które automatycznie wykonują powtarzalne zadania — od przetwarzania faktur po obsługę zamówień."
+    },
+    "service2": {
+      "title": "Automatyzacja workflow",
+      "desc": "Projektujemy i wdrażamy inteligentne przepływy pracy, które łączą systemy, aplikacje i ludzi w jeden spójny proces."
+    },
+    "service3": {
+      "title": "Integracja systemów",
+      "desc": "Łączymy Twoje systemy ERP, CRM, e-mail i bazy danych w jeden ekosystem z automatyczną wymianą danych."
+    },
+    "service4": {
+      "title": "Audyt i optymalizacja",
+      "desc": "Analizujemy Twoje procesy biznesowe, identyfikujemy bottlenecki i proponujemy konkretne rozwiązania automatyzacji."
+    },
+    "service5": {
+      "title": "Sztuczna inteligencja",
+      "desc": "Wdrażamy rozwiązania AI — od inteligentnego OCR po chatboty i predykcyjną analizę danych."
+    },
+    "service6": {
+      "title": "Wsparcie i utrzymanie",
+      "desc": "Zapewniamy ciągłe wsparcie techniczne, monitoring botów i rozwój wdrożonych automatyzacji."
+    }
+  },
+  "process": {
+    "title": "Jak działamy?",
+    "subtitle": "Sprawdzony proces wdrożenia automatyzacji w 4 krokach",
+    "step1": {
+      "number": "01",
+      "title": "Audyt procesów",
+      "desc": "Analizujemy Twoje procesy biznesowe, identyfikujemy te z największym potencjałem do automatyzacji i szacujemy ROI."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Projektowanie rozwiązania",
+      "desc": "Przygotowujemy szczegółowy projekt automatyzacji, dobieramy technologie i definiujemy mierzalne cele."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Wdrożenie i testy",
+      "desc": "Budujemy, konfigurujemy i testujemy roboty. Pilotaż na środowisku testowym, a potem wdrożenie produkcyjne."
+    },
+    "step4": {
+      "number": "04",
+      "title": "Wsparcie i rozwój",
+      "desc": "Monitorujemy działanie botów, optymalizujemy procesy i rozszerzamy automatyzację na kolejne obszary."
+    }
+  },
+  "roi": {
+    "title": "Konkretne wyniki automatyzacji",
+    "subtitle": "Badania i statystyki branżowe pokazują, że wdrożenia RPA w firmach skutkują następującymi korzyściami",
+    "stat1_value": "70%",
+    "stat1_label": "Redukcja kosztów operacyjnych",
+    "stat2_value": "5x",
+    "stat2_label": "Szybsze przetwarzanie danych",
+    "stat3_value": "99.9%",
+    "stat3_label": "Dokładność wykonania",
+    "stat4_value": "24/7",
+    "stat4_label": "Praca robotów non-stop"
+  },
+  "cases": {
+    "title": "Case studies",
+    "subtitle": "Zobacz jak automatyzacja zmieniła pracę naszych klientów",
+    "case1": {
+      "industry": "Finanse",
+      "title": "Automatyzacja przetwarzania faktur",
+      "desc": "Wdrożyliśmy robota RPA, który automatycznie odczytuje, weryfikuje i księguje faktury. Czas przetwarzania spadł z 15 minut do 30 sekund na fakturę.",
+      "result": "↓ 97% czasu przetwarzania"
+    },
+    "case2": {
+      "industry": "Logistyka",
+      "title": "Automatyzacja obsługi zamówień",
+      "desc": "Zrobotyzowaliśmy cały proces od przyjęcia zamówienia, przez sprawdzenie stanów magazynowych, po generowanie dokumentów przewozowych.",
+      "result": "↑ 200% przepustowości"
+    },
+    "case3": {
+      "industry": "HR",
+      "title": "Robotyzacja procesów kadrowych",
+      "desc": "Automatyczne generowanie umów, rozliczanie urlopów, onboarding nowych pracowników — wszystko bez ręcznej pracy.",
+      "result": "↓ 80% pracy manualnej"
+    }
+  },
+  "tech": {
+    "title": "Technologie",
+    "subtitle": "Pracujemy z wiodącymi platformami automatyzacji"
+  },
+  "testimonials": {
+    "title": "Co mówią nasi klienci",
+    "subtitle": "Opinie firm, które nam zaufały",
+    "t1": {
+      "text": "Dzięki OmniTask zaoszczędziliśmy ponad 200 godzin pracy miesięcznie. Automatyzacja faktur była strzałem w dziesiątkę.",
+      "author": "Anna Kowalska",
+      "role": "CFO, TechFin Sp. z o.o."
+    },
+    "t2": {
+      "text": "Profesjonalne podejście od audytu po wdrożenie. Roboty działają bez zarzutu, a my możemy skupić się na strategii.",
+      "author": "Marek Nowak",
+      "role": "CEO, LogiTrans S.A."
+    },
+    "t3": {
+      "text": "Współpraca z OmniTask to najlepsza inwestycja jaką podjęliśmy w tym roku. ROI w 3 miesiące.",
+      "author": "Katarzyna Wiśniewska",
+      "role": "Dyrektor Operacyjny, HRPro"
+    }
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "subtitle": "Odpowiadamy na pytania o automatyzację i RPA",
+    "q1": "Czym jest RPA (Robotic Process Automation)?",
+    "a1": "RPA to technologia pozwalająca tworzyć software'owe roboty, które naśladują ludzkie działania w systemach komputerowych. Robot może klikać, wpisywać dane, kopiować pliki, wysyłać maile — dokładnie tak jak człowiek, ale szybciej i bez błędów.",
+    "q2": "Ile trwa wdrożenie automatyzacji?",
+    "a2": "Prosty bot można wdrożyć w 2-4 tygodnie. Złożone procesy wymagające integracji wielu systemów zajmują 2-3 miesiące. Zawsze zaczynamy od pilotażu, żeby szybko pokazać wartość.",
+    "q3": "Ile kosztuje automatyzacja procesów?",
+    "a3": "Koszt zależy od złożoności procesu. Proste automatyzacje zaczynają się od kilku tysięcy złotych. Zwrot z inwestycji (ROI) następuje zazwyczaj w ciągu 3-6 miesięcy.",
+    "q4": "Czy automatyzacja zastąpi moich pracowników?",
+    "a4": "Nie — automatyzacja uwalnia pracowników od monotonnych, powtarzalnych zadań. Dzięki temu mogą skupić się na pracy kreatywnej, strategicznej i wymagającej ludzkiego osądu.",
+    "q5": "Jakie procesy można zautomatyzować?",
+    "a5": "Każdy powtarzalny, oparty na regułach proces: przetwarzanie faktur, obsługa zamówień, raportowanie, migracja danych, obsługa klienta, procesy HR, księgowe i wiele innych."
+  },
+  "newsletter": {
+    "title": "Bądź na bieżąco z automatyzacją",
+    "subtitle": "Zapisz się do newslettera i otrzymuj porady, case studies oraz nowości ze świata RPA.",
+    "placeholder": "Twój adres e-mail",
+    "button": "Zapisz się",
+    "success": "Dziękujemy za zapis!"
+  },
+  "about": {
+    "title": "Dlaczego OmniTask?",
+    "subtitle": "Jesteśmy zespołem specjalistów od automatyzacji, którzy łączą wiedzę techniczną z głębokim zrozumieniem procesów biznesowych.",
+    "stat1_value": "150+",
+    "stat1_label": "Wdrożonych automatyzacji",
+    "stat2_value": "98%",
+    "stat2_label": "Zadowolonych klientów",
+    "stat3_value": "50k+",
+    "stat3_label": "Zaoszczędzonych godzin",
+    "stat4_value": "3 mies.",
+    "stat4_label": "Średni czas zwrotu ROI"
+  },
+  "why": {
+    "title": "Co nas wyróżnia?",
+    "feature1": {
+      "title": "Podejście biznesowe",
+      "desc": "Nie wdrażamy technologii dla samej technologii. Zaczynamy od zrozumienia Twoich celów biznesowych i procesów."
+    },
+    "feature2": {
+      "title": "Szybki czas wdrożenia",
+      "desc": "Proste procesy automatyzujemy nawet w 2 tygodnie. Stosujemy metodykę zwinną, aby jak najszybciej dostarczyć wartość biznesową."
+    },
+    "feature3": {
+      "title": "Mierzalne wyniki",
+      "desc": "Każde wdrożenie mierzymy konkretnymi KPI: czas, koszt, dokładność. Pokazujemy realny ROI."
+    },
+    "feature4": {
+      "title": "Wsparcie 24/7",
+      "desc": "Monitorujemy roboty non-stop, reagujemy na awarie i dbamy o ciągłość działania automatyzacji."
+    }
+  },
+  "cta": {
+    "title": "Gotowy na automatyzację?",
+    "subtitle": "Umów się na bezpłatną konsultację. Przeanalizujemy Twoje procesy i pokażemy, ile możesz zaoszczędzić.",
+    "button": "Bezpłatna konsultacja"
+  },
+  "clients": {
+    "title": "Zaufali nam"
+  },
+  "quote": {
+    "title": "Zapytanie ofertowe",
+    "subtitle": "Opisz proces, który chcesz zautomatyzować. Nasz zespół przygotuje indywidualną wycenę w ciągu 24 godzin.",
+    "name": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "phone": "Numer telefonu",
+    "company": "Nazwa firmy",
+    "message": "Opis procesu do automatyzacji",
+    "submit": "Wyślij zapytanie",
+    "success": "Dziękujemy! Twoje zapytanie zostało wysłane. Skontaktujemy się z Tobą w ciągu 24 godzin.",
+    "error": "Wystąpił błąd. Spróbuj ponownie później.",
+    "required": "To pole jest wymagane",
+    "invalid_email": "Podaj prawidłowy adres e-mail",
+    "name_placeholder": "Jan Kowalski",
+    "email_placeholder": "kontakt@omnitask.pl",
+    "phone_placeholder": "+48 721 721 238",
+    "company_placeholder": "Twoja Firma Sp. z o.o.",
+    "message_placeholder": "Opisz proces, który chcesz zautomatyzować, ile osób go wykonuje, ile czasu zajmuje i jakie systemy są używane..."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Porozmawiajmy o automatyzacji Twoich procesów",
+    "phone_label": "Telefon",
+    "phone": "+48 721 719 238",
+    "email_label": "E-mail",
+    "email": "kontakt@omnitask.pl",
+    "hours_label": "Godziny pracy",
+    "hours": "Pon - Pt: 8:00 - 17:00",
+    "map_title": "Nasza lokalizacja"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Wiedza o automatyzacji, RPA i transformacji cyfrowej",
+    "read_more": "Czytaj więcej",
+    "no_articles": "Brak artykułów do wyświetlenia.",
+    "published": "Opublikowano"
+  },
+  "footer": {
+    "description": "OmniTask — automatyzacja i robotyzacja procesów biznesowych. Wdrażamy RPA, integrujemy systemy i optymalizujemy procesy.",
+    "quick_links": "Szybkie linki",
+    "contact_info": "Dane kontaktowe",
+    "copyright": "© 2026 OmniTask. Wszelkie prawa zastrzeżone."
+  }
+}
