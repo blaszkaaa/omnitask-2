@@ -1033,14 +1033,23 @@ img {
 
 .article-page__image {
   width: 100%;
+  max-height: 400px;
   border-radius: var(--radius-lg);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 1.5rem;
 }
 
 .article-page__image img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 350px;
+  width: auto;
   height: auto;
+  object-fit: contain;
   display: block;
 }
 
