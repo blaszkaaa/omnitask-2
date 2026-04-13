@@ -224,6 +224,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ===== AI AGENTS FEATURE SECTION ===== */}
+      <section className="section bg-agents" id="ai-agents">
+        <div className="section__container">
+          <div className="agents-layout">
+            <div className="agents-info">
+              <div className="hero__label">{t('ai_agents.title')}</div>
+              <h2 className="agents-title">{t('ai_agents.subtitle')}</h2>
+              <p className="agents-description">{t('ai_agents.tech_selection')}</p>
+              
+              <div className="agents-features">
+                {[1, 2, 3].map((i) => (
+                  <div key={i} className="agent-feature-item">
+                    <div className="agent-feature-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                        <path d="M5 12l5 5L20 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4>{t(`ai_agents.feature${i}_title`)}</h4>
+                      <p>{t(`ai_agents.feature${i}_desc`)}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            <div className="agents-visual">
+              <div className="agents-orb">
+                <div className="orb-core"></div>
+                <div className="orb-ring ring-1"></div>
+                <div className="orb-ring ring-2"></div>
+                <div className="orb-ring ring-3"></div>
+                <div className="orb-node node-1">AI</div>
+                <div className="orb-node node-2">Agent</div>
+                <div className="orb-node node-3">RPA</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== ROI SECTION ===== */}
       <section className="section section--dark" id="roi">
         <div className="section__container">

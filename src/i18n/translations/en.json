@@ -63,6 +63,17 @@
       "desc": "We monitor bot performance, optimize processes, and expand automation to new areas."
     }
   },
+  "ai_agents": {
+    "title": "AI Agents Ecosystem",
+    "subtitle": "The future belongs to intelligent agents that think and collaborate, rather than just follow instructions.",
+    "tech_selection": "For every challenge, we select the right tool: RPA for repetitive tasks or AI Agents for processes requiring intelligence.",
+    "feature1_title": "Multi-Agent Systems",
+    "feature1_desc": "We create teams of collaborating AI agents, where each specialized agent handles a different stage of the process.",
+    "feature2_title": "Autonomy & Reasoning",
+    "feature2_desc": "Agents analyze the business context and make decisions without the need for rigid rules.",
+    "feature3_title": "Rapid Adaptation",
+    "feature3_desc": "Unlike traditional bots, AI agents learn and adapt to changes in your company's environment."
+  },
   "roi": {
     "title": "Real Results of Our Actions",
     "subtitle": "Depending on the process, we select the best technology: RPA, classic robotization, or advanced AI agents. Our implementations translate into measurable profits.",
