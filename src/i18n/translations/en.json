@@ -6,17 +6,17 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Business Process Automation & Robotization",
-    "subtitle": "We implement intelligent RPA solutions that eliminate repetitive tasks, reduce costs, and accelerate your company's operations. Let robots work for you.",
+    "title": "Automation, RPA & AI Agents for Your Business",
+    "subtitle": "We implement intelligent RPA solutions and autonomous AI agents that eliminate repetitive tasks, reduce costs, and accelerate your company's operations. Let technology work for you.",
     "cta_primary": "Free Consultation",
     "cta_secondary": "See How We Work"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "End-to-end automation support — from process analysis to robot deployment and maintenance",
+    "subtitle": "End-to-end automation support, from process analysis to robot deployment and maintenance",
     "service1": {
       "title": "Robotic Process Automation (RPA)",
-      "desc": "We deploy software robots that automatically perform repetitive tasks — from invoice processing to order management."
+      "desc": "We deploy software robots that automatically perform repetitive tasks: from document processing to order management."
     },
     "service2": {
       "title": "Workflow Automation",
@@ -32,7 +32,7 @@
     },
     "service5": {
       "title": "Artificial Intelligence",
-      "desc": "We implement AI solutions — from intelligent OCR to chatbots and predictive data analytics."
+      "desc": "We implement AI solutions: from intelligent OCR to chatbots and predictive data analytics."
     },
     "service6": {
       "title": "Support & Maintenance",
@@ -76,25 +76,25 @@
     "stat4_label": "Non-stop robot operation"
   },
   "cases": {
-    "title": "Case Studies",
-    "subtitle": "See how automation transformed our clients' work",
+    "title": "Use Cases",
+    "subtitle": "Unconventional AI agent applications that can transform your business",
     "case1": {
-      "industry": "Finance",
-      "title": "Invoice Processing Automation",
-      "desc": "We deployed an RPA robot that automatically reads, verifies, and books invoices. Processing time dropped from 15 minutes to 30 seconds per invoice.",
-      "result": "↓ 97% processing time"
+      "industry": "Recruitment",
+      "title": "Multi-Agent AI for CV Screening",
+      "desc": "A team of AI agents collaborates on recruitment: the first agent analyzes CVs and matches skills to requirements, the second evaluates experience and education, the third generates a ranked shortlist with justifications. The entire process takes minutes instead of days.",
+      "result": "↓ 85% candidate screening time"
     },
     "case2": {
-      "industry": "Logistics",
-      "title": "Order Handling Automation",
-      "desc": "We robotized the entire process from order receipt, through inventory checks, to generating shipping documents.",
-      "result": "↑ 200% throughput"
+      "industry": "E-commerce",
+      "title": "AI Agent for Competitor Monitoring",
+      "desc": "An AI agent continuously scans competitor websites, marketplaces, and social media. It tracks price changes, new products, ad campaigns, and market trends. Every day it delivers a concise strategic report with actionable recommendations.",
+      "result": "↑ 30% pricing decision accuracy"
     },
     "case3": {
-      "industry": "HR",
-      "title": "HR Process Robotization",
-      "desc": "Automatic contract generation, leave management, new employee onboarding — all without manual work.",
-      "result": "↓ 80% manual work"
+      "industry": "Legal",
+      "title": "AI Compliance Audit Agent",
+      "desc": "An AI agent tracks changes in laws and industry regulations, compares them against internal company procedures, and automatically identifies compliance gaps. It generates remediation recommendations for the legal team.",
+      "result": "↑ 95% regulatory coverage"
     }
   },
   "tech": {
@@ -122,17 +122,23 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Answers to common questions about automation and RPA",
+    "subtitle": "Answers to common questions about automation, RPA, and AI agents",
     "q1": "What is RPA (Robotic Process Automation)?",
-    "a1": "RPA is a technology that creates software robots mimicking human actions in computer systems. A robot can click, enter data, copy files, send emails — just like a person, but faster and error-free.",
+    "a1": "RPA is a technology that creates software robots mimicking human actions in computer systems. A robot can click, enter data, copy files, send emails. It works just like a person, but faster and error-free.",
     "q2": "How long does an automation implementation take?",
     "a2": "A simple bot can be deployed in 2-4 weeks. Complex processes requiring multi-system integration take 2-3 months. We always start with a pilot to quickly demonstrate value.",
     "q3": "How much does process automation cost?",
     "a3": "Cost depends on process complexity. Simple automations start at several thousand PLN. Return on investment (ROI) typically occurs within 3-6 months.",
     "q4": "Will automation replace my employees?",
-    "a4": "No — automation frees employees from monotonous, repetitive tasks. This allows them to focus on creative, strategic work requiring human judgment.",
+    "a4": "No. Automation frees employees from monotonous, repetitive tasks. This allows them to focus on creative, strategic work requiring human judgment.",
     "q5": "What processes can be automated?",
-    "a5": "Any repetitive, rule-based process: invoice processing, order handling, reporting, data migration, customer service, HR processes, accounting, and many more."
+    "a5": "Any repetitive, rule-based process: document processing, order handling, reporting, data migration, customer service, HR processes, accounting, and many more.",
+    "q6": "What are AI agents and how do they differ from regular bots?",
+    "a6": "AI agents are autonomous systems that can independently make decisions, learn from context, and execute complex tasks without constant human oversight. Unlike RPA bots, AI agents understand natural language, analyze data, and adapt to new situations.",
+    "q7": "What is a multi-agent system?",
+    "a7": "A multi-agent system is a team of several AI agents, each specializing in a different task. Agents collaborate, share information, and jointly execute complex processes. For example, one agent analyzes documents, another verifies data, and a third generates the final report.",
+    "q8": "In which industries do AI agents work best?",
+    "a8": "AI agents find applications virtually everywhere: from recruitment and e-commerce, through law and finance, to logistics and customer service. Anywhere large-scale data analysis, decision-making, or handling repetitive queries is needed."
   },
   "newsletter": {
     "title": "Stay Updated on Automation",
@@ -218,7 +224,7 @@
     "published": "Published"
   },
   "footer": {
-    "description": "OmniTask — business process automation and robotization. We deploy RPA, integrate systems, and optimize processes.",
+    "description": "OmniTask. Business process automation and robotization. We deploy RPA, integrate systems, and optimize processes.",
     "quick_links": "Quick Links",
     "contact_info": "Contact Info",
     "copyright": "© 2026 OmniTask. All rights reserved."

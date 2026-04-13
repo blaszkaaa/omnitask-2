@@ -242,7 +242,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== CASE STUDIES ===== */}
+      {/* ===== USE CASES ===== */}
       <section className="section section--alt" id="cases">
         <div className="section__container">
           <div className="section__header">
@@ -389,7 +389,7 @@ export default function HomePage() {
             <p>{t('faq.subtitle')}</p>
           </div>
           <div className="faq-list">
-            {[1, 2, 3, 4, 5].map((i) => (
+            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
               <div
                 key={i}
                 className={`faq-item ${faqOpen === i ? 'faq-item--open' : ''}`}
@@ -496,7 +496,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: [1, 2, 3, 4, 5].map((i) => ({
+            mainEntity: [1, 2, 3, 4, 5, 6, 7, 8].map((i) => ({
               '@type': 'Question',
               name: t(`faq.q${i}`),
               acceptedAnswer: {

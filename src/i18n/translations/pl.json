@@ -6,17 +6,17 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Automatyzacja i robotyzacja procesów biznesowych",
-    "subtitle": "Wdrażamy inteligentne rozwiązania RPA, które eliminują powtarzalne zadania, redukują koszty i przyspieszają pracę Twojej firmy. Pozwól robotom pracować za Ciebie.",
+    "title": "Automatyzacja, RPA i Agenci AI dla Twojego biznesu",
+    "subtitle": "Wdrażamy inteligentne rozwiązania RPA oraz autonomicznych agentów AI, którzy eliminują powtarzalne zadania, redukują koszty i przyspieszają pracę Twojej firmy. Pozwól technologii pracować za Ciebie.",
     "cta_primary": "Bezpłatna konsultacja",
     "cta_secondary": "Zobacz jak działamy"
   },
   "services": {
     "title": "Nasze usługi",
-    "subtitle": "Kompleksowa obsługa automatyzacji — od analizy procesów po wdrożenie i utrzymanie robotów",
+    "subtitle": "Kompleksowa obsługa automatyzacji, od analizy procesów po wdrożenie i utrzymanie robotów",
     "service1": {
       "title": "Robotyzacja procesów (RPA)",
-      "desc": "Wdrażamy roboty software'owe, które automatycznie wykonują powtarzalne zadania — od przetwarzania faktur po obsługę zamówień."
+      "desc": "Wdrażamy roboty software'owe, które automatycznie wykonują powtarzalne zadania: od przetwarzania dokumentów po obsługę zamówień."
     },
     "service2": {
       "title": "Automatyzacja workflow",
@@ -32,7 +32,7 @@
     },
     "service5": {
       "title": "Sztuczna inteligencja",
-      "desc": "Wdrażamy rozwiązania AI — od inteligentnego OCR po chatboty i predykcyjną analizę danych."
+      "desc": "Wdrażamy rozwiązania AI: od inteligentnego OCR po chatboty i predykcyjną analizę danych."
     },
     "service6": {
       "title": "Wsparcie i utrzymanie",
@@ -76,25 +76,25 @@
     "stat4_label": "Praca robotów non-stop"
   },
   "cases": {
-    "title": "Case studies",
-    "subtitle": "Zobacz jak automatyzacja zmieniła pracę naszych klientów",
+    "title": "Use Cases",
+    "subtitle": "Nietypowe zastosowania agentów AI, które mogą zmienić Twój biznes",
     "case1": {
-      "industry": "Finanse",
-      "title": "Automatyzacja przetwarzania faktur",
-      "desc": "Wdrożyliśmy robota RPA, który automatycznie odczytuje, weryfikuje i księguje faktury. Czas przetwarzania spadł z 15 minut do 30 sekund na fakturę.",
-      "result": "↓ 97% czasu przetwarzania"
+      "industry": "Rekrutacja",
+      "title": "Multi-agenci AI do oceny CV",
+      "desc": "Zespół agentów AI współpracuje przy rekrutacji: pierwszy agent analizuje CV i dopasowuje kompetencje do wymagań, drugi ocenia doświadczenie i wykształcenie, trzeci generuje ranking kandydatów z uzasadnieniem. Cały proces trwa minuty zamiast dni.",
+      "result": "↓ 85% czasu selekcji kandydatów"
     },
     "case2": {
-      "industry": "Logistyka",
-      "title": "Automatyzacja obsługi zamówień",
-      "desc": "Zrobotyzowaliśmy cały proces od przyjęcia zamówienia, przez sprawdzenie stanów magazynowych, po generowanie dokumentów przewozowych.",
-      "result": "↑ 200% przepustowości"
+      "industry": "E-commerce",
+      "title": "Agent AI do monitoringu konkurencji",
+      "desc": "Agent AI nieustannie skanuje strony konkurencji, marketplace'y i media społecznościowe. Śledzi zmiany cen, nowe produkty, kampanie reklamowe i trendy rynkowe. Codziennie dostarcza zwięzły raport strategiczny z rekomendacjami działań.",
+      "result": "↑ 30% trafności decyzji cenowych"
     },
     "case3": {
-      "industry": "HR",
-      "title": "Robotyzacja procesów kadrowych",
-      "desc": "Automatyczne generowanie umów, rozliczanie urlopów, onboarding nowych pracowników — wszystko bez ręcznej pracy.",
-      "result": "↓ 80% pracy manualnej"
+      "industry": "Prawo",
+      "title": "Agent AI do audytu zgodności",
+      "desc": "Agent AI śledzi zmiany w przepisach i regulacjach branżowych, porównuje je z wewnętrznymi procedurami firmy i automatycznie wskazuje luki w zgodności. Generuje rekomendacje działań naprawczych dla zespołu prawnego.",
+      "result": "↑ 95% pokrycia regulacyjnego"
     }
   },
   "tech": {
@@ -122,17 +122,23 @@
   },
   "faq": {
     "title": "Najczęściej zadawane pytania",
-    "subtitle": "Odpowiadamy na pytania o automatyzację i RPA",
+    "subtitle": "Odpowiadamy na pytania o automatyzację, RPA i agentów AI",
     "q1": "Czym jest RPA (Robotic Process Automation)?",
-    "a1": "RPA to technologia pozwalająca tworzyć software'owe roboty, które naśladują ludzkie działania w systemach komputerowych. Robot może klikać, wpisywać dane, kopiować pliki, wysyłać maile — dokładnie tak jak człowiek, ale szybciej i bez błędów.",
+    "a1": "RPA to technologia pozwalająca tworzyć software'owe roboty, które naśladują ludzkie działania w systemach komputerowych. Robot może klikać, wpisywać dane, kopiować pliki, wysyłać maile. Działa dokładnie tak jak człowiek, ale szybciej i bez błędów.",
     "q2": "Ile trwa wdrożenie automatyzacji?",
     "a2": "Prosty bot można wdrożyć w 2-4 tygodnie. Złożone procesy wymagające integracji wielu systemów zajmują 2-3 miesiące. Zawsze zaczynamy od pilotażu, żeby szybko pokazać wartość.",
     "q3": "Ile kosztuje automatyzacja procesów?",
     "a3": "Koszt zależy od złożoności procesu. Proste automatyzacje zaczynają się od kilku tysięcy złotych. Zwrot z inwestycji (ROI) następuje zazwyczaj w ciągu 3-6 miesięcy.",
     "q4": "Czy automatyzacja zastąpi moich pracowników?",
-    "a4": "Nie — automatyzacja uwalnia pracowników od monotonnych, powtarzalnych zadań. Dzięki temu mogą skupić się na pracy kreatywnej, strategicznej i wymagającej ludzkiego osądu.",
+    "a4": "Nie. Automatyzacja uwalnia pracowników od monotonnych, powtarzalnych zadań. Dzięki temu mogą skupić się na pracy kreatywnej, strategicznej i wymagającej ludzkiego osądu.",
     "q5": "Jakie procesy można zautomatyzować?",
-    "a5": "Każdy powtarzalny, oparty na regułach proces: przetwarzanie faktur, obsługa zamówień, raportowanie, migracja danych, obsługa klienta, procesy HR, księgowe i wiele innych."
+    "a5": "Każdy powtarzalny, oparty na regułach proces: przetwarzanie dokumentów, obsługa zamówień, raportowanie, migracja danych, obsługa klienta, procesy HR, księgowe i wiele innych.",
+    "q6": "Czym są agenci AI i czym różnią się od zwykłych botów?",
+    "a6": "Agenci AI to autonomiczne systemy, które potrafią samodzielnie podejmować decyzje, uczyć się z kontekstu i realizować złożone zadania bez stałego nadzoru człowieka. W odróżnieniu od botów RPA, agenci AI rozumieją język naturalny, analizują dane i adaptują się do nowych sytuacji.",
+    "q7": "Co to jest system multi-agentowy?",
+    "a7": "System multi-agentowy to zespół kilku agentów AI, z których każdy specjalizuje się w innym zadaniu. Agenci współpracują ze sobą, dzielą się informacjami i wspólnie realizują złożone procesy. Przykładowo, jeden agent analizuje dokumenty, drugi weryfikuje dane, a trzeci generuje raport końcowy.",
+    "q8": "W jakich branżach sprawdzają się agenci AI?",
+    "a8": "Agenci AI znajdują zastosowanie praktycznie wszędzie: od rekrutacji i e-commerce, przez prawo i finanse, po logistykę i obsługę klienta. Wszędzie tam, gdzie potrzeba analizy dużych ilości danych, podejmowania decyzji lub obsługi powtarzalnych zapytań."
   },
   "newsletter": {
     "title": "Bądź na bieżąco z automatyzacją",
@@ -218,7 +224,7 @@
     "published": "Opublikowano"
   },
   "footer": {
-    "description": "OmniTask — automatyzacja i robotyzacja procesów biznesowych. Wdrażamy RPA, integrujemy systemy i optymalizujemy procesy.",
+    "description": "OmniTask. Automatyzacja i robotyzacja procesów biznesowych. Wdrażamy RPA, integrujemy systemy i optymalizujemy procesy.",
     "quick_links": "Szybkie linki",
     "contact_info": "Dane kontaktowe",
     "copyright": "© 2026 OmniTask. Wszelkie prawa zastrzeżone."
