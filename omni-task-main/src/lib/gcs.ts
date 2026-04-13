@@ -5,7 +5,7 @@ const storage = new Storage({
   keyFilename: process.env.GCS_KEY_FILE,
 })
 
-const bucketName = process.env.GCS_BUCKET_NAME || 'omnitask-images'
+const bucketName = process.env.GCS_BUCKET_NAME || 'twoj-projekt-zdjecia2'
 const bucket = storage.bucket(bucketName)
 
 export async function uploadImage(
