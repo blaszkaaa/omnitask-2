@@ -13,7 +13,7 @@
   },
   "services": {
     "title": "Nasze usługi",
-    "subtitle": "Kompleksowa obsługa automatyzacji, od analizy procesów po wdrożenie i utrzymanie robotów",
+    "subtitle": "Kompleksowa obsługa automatyzacji, RPA i agentów AI: od analizy procesów po wdrożenie.",
     "service1": {
       "title": "Robotyzacja procesów (RPA)",
       "desc": "Wdrażamy roboty software'owe, które automatycznie wykonują powtarzalne zadania: od przetwarzania dokumentów po obsługę zamówień."
@@ -31,8 +31,8 @@
       "desc": "Analizujemy Twoje procesy biznesowe, identyfikujemy bottlenecki i proponujemy konkretne rozwiązania automatyzacji."
     },
     "service5": {
-      "title": "Sztuczna inteligencja",
-      "desc": "Wdrażamy rozwiązania AI: od inteligentnego OCR po chatboty i predykcyjną analizę danych."
+      "title": "Agenci AI i Multi-agent",
+      "desc": "Budujemy autonomicznych agentów AI i systemy multi-agentowe, które same podejmują decyzje i realizują złożone cele biznesowe."
     },
     "service6": {
       "title": "Wsparcie i utrzymanie",

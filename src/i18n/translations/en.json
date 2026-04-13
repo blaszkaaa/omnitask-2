@@ -13,7 +13,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "End-to-end automation support, from process analysis to robot deployment and maintenance",
+    "subtitle": "End-to-end support for automation, RPA, and AI agents: from process analysis to deployment.",
     "service1": {
       "title": "Robotic Process Automation (RPA)",
       "desc": "We deploy software robots that automatically perform repetitive tasks: from document processing to order management."
@@ -31,8 +31,8 @@
       "desc": "We analyze your business processes, identify bottlenecks, and propose specific automation solutions."
     },
     "service5": {
-      "title": "Artificial Intelligence",
-      "desc": "We implement AI solutions: from intelligent OCR to chatbots and predictive data analytics."
+      "title": "AI Agents & Multi-agent",
+      "desc": "We build autonomous AI agents and multi-agent systems that make independent decisions and achieve complex business goals."
     },
     "service6": {
       "title": "Support & Maintenance",
