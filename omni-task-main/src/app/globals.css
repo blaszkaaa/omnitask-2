@@ -1032,9 +1032,8 @@ img {
 }
 
 .article-page__image {
-  width: fit-content;
-  max-width: 100%;
-  max-height: 300px;
+  width: 100%;
+  max-width: 500px;
   border-radius: var(--radius-lg);
   margin: 0 auto 2.5rem auto;
   overflow: hidden;
@@ -1042,14 +1041,13 @@ img {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.02);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .article-page__image img {
-  max-width: 100%;
-  max-height: 260px;
-  width: auto;
+  width: 100%;
   height: auto;
+  max-height: 280px;
   object-fit: contain;
   display: block;
 }
