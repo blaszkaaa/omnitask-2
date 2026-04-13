@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     url: 'https://www.omnitask.pl/kontakt',
     type: 'website',
   },
+  alternates: {
+    canonical: '/kontakt',
+  },
 }
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {

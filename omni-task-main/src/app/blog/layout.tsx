@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     url: 'https://www.omnitask.pl/blog',
     type: 'website',
   },
+  alternates: {
+    canonical: '/blog',
+  },
 }
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {

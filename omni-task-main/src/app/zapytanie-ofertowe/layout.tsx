@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     url: 'https://www.omnitask.pl/zapytanie-ofertowe',
     type: 'website',
   },
+  alternates: {
+    canonical: '/zapytanie-ofertowe',
+  },
 }
 
 export default function QuoteLayout({ children }: { children: React.ReactNode }) {

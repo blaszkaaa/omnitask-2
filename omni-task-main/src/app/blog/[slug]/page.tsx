@@ -44,9 +44,6 @@ export default function BlogArticlePage() {
       .then((data) => {
         if (data?.article) {
           setArticle(data.article)
-          // Update page title dynamically
-          const titleText = data.article.meta_title || (data.article.title ? (data.article.title[locale] || data.article.title.pl) : 'Blog')
-          document.title = `${titleText} | OmniTask`
         }
         setLoading(false)
       })

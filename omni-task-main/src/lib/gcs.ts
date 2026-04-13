@@ -13,7 +13,7 @@ export async function uploadImage(
   filename: string,
   contentType: string
 ): Promise<string> {
-  const blob = bucket.file(`articles/${filename}`)
+  const blob = bucket.file(`OmniTask/Blog/${filename}`)
   const blobStream = blob.createWriteStream({
     resumable: false,
     contentType,
@@ -25,7 +25,7 @@ export async function uploadImage(
   return new Promise((resolve, reject) => {
     blobStream.on('error', (err) => reject(err))
     blobStream.on('finish', () => {
-      const publicUrl = `https://storage.googleapis.com/${bucketName}/articles/${filename}`
+      const publicUrl = `https://storage.googleapis.com/${bucketName}/OmniTask/Blog/${filename}`
       resolve(publicUrl)
     })
     blobStream.end(file)
@@ -33,5 +33,5 @@ export async function uploadImage(
 }
 
 export function getPublicUrl(filename: string): string {
-  return `https://storage.googleapis.com/${bucketName}/articles/${filename}`
+  return `https://storage.googleapis.com/${bucketName}/OmniTask/Blog/${filename}`
 }
